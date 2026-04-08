@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { ArrowRight } from "lucide-react"
 import { AffiliateCard } from "@/components/ui/AffiliateCard"
 import { CTAButton } from "@/components/ui/CTAButton"
 import { Badge } from "@/components/ui/badge"

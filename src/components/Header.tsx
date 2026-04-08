@@ -10,7 +10,6 @@ import {
   SheetHeader,
   SheetTitle,
 } from "@/components/ui/sheet"
-import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 
 const NAV_LINKS = [
@@ -74,15 +73,11 @@ export function Header() {
         {/* Mobile Menu */}
         <div className="lg:hidden">
           <Sheet open={mobileOpen} onOpenChange={setMobileOpen}>
-            <SheetTrigger asChild>
-              <Button
-                variant="ghost"
-                size="icon"
-                className="text-white hover:bg-white/10"
-                aria-label="Open menu"
-              >
-                <Menu className="size-5" />
-              </Button>
+            <SheetTrigger
+              className="inline-flex items-center justify-center rounded-md p-2 text-white transition-colors hover:bg-white/10"
+              aria-label="Open menu"
+            >
+              <Menu className="size-5" />
             </SheetTrigger>
             <SheetContent side="right" className="w-72 bg-white">
               <SheetHeader>

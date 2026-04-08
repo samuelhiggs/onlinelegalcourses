@@ -1,26 +1,41 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useSyncExternalStore } from "react"
 import { X } from "lucide-react"
 
 const STORAGE_KEY = "olc-disclaimer-dismissed"
 
-export function DisclaimerBanner() {
-  const [isDismissed, setIsDismissed] = useState(true)
+function getSnapshot(): boolean {
+  try {
+    return localStorage.getItem(STORAGE_KEY) === "true"
+  } catch {
+    return false
+  }
+}
 
-  useEffect(() => {
-    const dismissed = localStorage.getItem(STORAGE_KEY)
-    if (!dismissed) {
-      setIsDismissed(false)
-    }
-  }, [])
+function getServerSnapshot(): boolean {
+  return true // hide on server to avoid hydration mismatch
+}
+
+function subscribe(callback: () => void): () => void {
+  window.addEventListener("storage", callback)
+  return () => window.removeEventListener("storage", callback)
+}
+
+export function DisclaimerBanner() {
+  const wasDismissed = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot)
+  const [dismissed, setDismissed] = useState(false)
 
   function handleDismiss() {
-    localStorage.setItem(STORAGE_KEY, "true")
-    setIsDismissed(true)
+    try {
+      localStorage.setItem(STORAGE_KEY, "true")
+    } catch {
+      // localStorage may be unavailable
+    }
+    setDismissed(true)
   }
 
-  if (isDismissed) return null
+  if (wasDismissed || dismissed) return null
 
   return (
     <div

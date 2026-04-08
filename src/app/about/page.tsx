@@ -1,4 +1,3 @@
-import Link from "next/link"
 import { BookOpen, Users, Shield, Award } from "lucide-react"
 import { CTAButton } from "@/components/ui/CTAButton"
 import { generatePageMetadata, generateBreadcrumbSchema } from "@/lib/seo"

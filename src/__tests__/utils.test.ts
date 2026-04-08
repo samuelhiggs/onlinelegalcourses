@@ -31,8 +31,8 @@ describe("formatDate", () => {
   })
 
   it("formats date string", () => {
-    const result = formatDate("2026-01-01")
-    expect(result).toContain("January")
+    const result = formatDate("2026-03-15")
+    expect(result).toContain("March")
     expect(result).toContain("2026")
   })
 })
