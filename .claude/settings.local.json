@@ -10,7 +10,9 @@
       "Bash(cp /tmp/nextapp/next.config.ts .)",
       "Bash(npm install:*)",
       "Bash(npx shadcn@latest init --defaults --yes)",
-      "Bash(npx shadcn@latest add button card input label select textarea badge separator sheet navigation-menu accordion --yes)"
+      "Bash(npx shadcn@latest add button card input label select textarea badge separator sheet navigation-menu accordion --yes)",
+      "Bash(mkdir -p C:/Users/samue/Desktop/CLI/Project/onlinelegalcourses/src/app/bar-prep/\\\\[provider\\\\])",
+      "Bash(mkdir -p C:/Users/samue/Desktop/CLI/Project/onlinelegalcourses/src/app/compare/\\\\[slug\\\\])"
     ]
   }
 }
