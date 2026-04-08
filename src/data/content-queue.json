@@ -1,0 +1,22 @@
+[
+  {"id": "blog-01", "type": "blog", "title": "Top 10 CLE Providers for Solo Practitioners in 2026", "target_keywords": ["CLE for solo practitioners", "best CLE providers solo"], "status": "pending", "priority": 1},
+  {"id": "blog-02", "type": "blog", "title": "How to Choose the Right Bar Prep Course: A Decision Framework", "target_keywords": ["how to choose bar prep", "bar prep decision guide"], "status": "pending", "priority": 1},
+  {"id": "blog-03", "type": "blog", "title": "California MCLE Requirements 2026: The Complete Guide", "target_keywords": ["California MCLE requirements", "CA CLE 2026"], "status": "pending", "priority": 1},
+  {"id": "blog-04", "type": "blog", "title": "New York CLE Requirements 2026: Everything You Need to Know", "target_keywords": ["New York CLE requirements", "NY CLE 2026"], "status": "pending", "priority": 1},
+  {"id": "blog-05", "type": "blog", "title": "Ethics CLE: Why It Matters and How to Earn Credits Efficiently", "target_keywords": ["ethics CLE credits", "legal ethics CLE"], "status": "pending", "priority": 2},
+  {"id": "blog-06", "type": "blog", "title": "UBE vs State-Specific Bar Exam: Which States Use the UBE?", "target_keywords": ["UBE states", "uniform bar exam states"], "status": "pending", "priority": 2},
+  {"id": "blog-07", "type": "blog", "title": "Bar Prep Study Schedule: How to Plan Your 10-Week Study Plan", "target_keywords": ["bar prep study schedule", "bar exam study plan"], "status": "pending", "priority": 2},
+  {"id": "blog-08", "type": "blog", "title": "CLE Credits for Pro Bono Work: A State-by-State Guide", "target_keywords": ["pro bono CLE credit", "CLE for pro bono"], "status": "pending", "priority": 2},
+  {"id": "blog-09", "type": "blog", "title": "The Best MBE Practice Question Banks in 2026", "target_keywords": ["MBE practice questions", "best MBE question bank"], "status": "pending", "priority": 3},
+  {"id": "blog-10", "type": "blog", "title": "CLE for Newly Admitted Attorneys: Requirements by State", "target_keywords": ["new attorney CLE", "new admittee CLE requirements"], "status": "pending", "priority": 3},
+  {"id": "review-01", "type": "review", "title": "Lawline CLE Review 2026", "target_keywords": ["Lawline review", "Lawline CLE"], "status": "pending", "priority": 1},
+  {"id": "review-02", "type": "review", "title": "PLI (Practising Law Institute) Review 2026", "target_keywords": ["PLI review", "Practising Law Institute"], "status": "pending", "priority": 2},
+  {"id": "review-03", "type": "review", "title": "NBI Seminars Review 2026", "target_keywords": ["NBI review", "NBI CLE"], "status": "pending", "priority": 2},
+  {"id": "review-04", "type": "review", "title": "West LegalEdCenter CLE Review 2026", "target_keywords": ["West LegalEdCenter review", "Westlaw CLE"], "status": "pending", "priority": 3},
+  {"id": "review-05", "type": "review", "title": "CLE Center Review 2026", "target_keywords": ["CLE Center review"], "status": "pending", "priority": 3},
+  {"id": "compare-01", "type": "comparison", "title": "Quimbee vs AdaptiBar: Best MBE Supplement?", "target_keywords": ["Quimbee vs AdaptiBar", "MBE supplement comparison"], "status": "pending", "priority": 1},
+  {"id": "compare-02", "type": "comparison", "title": "BARBRI vs UWorld MBE: Do You Need Both?", "target_keywords": ["BARBRI vs UWorld", "MBE practice comparison"], "status": "pending", "priority": 2},
+  {"id": "compare-03", "type": "comparison", "title": "Kaplan vs Themis Bar Prep 2026", "target_keywords": ["Kaplan vs Themis", "bar prep comparison"], "status": "pending", "priority": 2},
+  {"id": "compare-04", "type": "comparison", "title": "PLI vs Lawline: Best CLE for BigLaw Associates", "target_keywords": ["PLI vs Lawline", "CLE for BigLaw"], "status": "pending", "priority": 3},
+  {"id": "compare-05", "type": "comparison", "title": "Best CLE Providers for Government Attorneys 2026", "target_keywords": ["CLE for government attorneys", "government lawyer CLE"], "status": "pending", "priority": 3}
+]
