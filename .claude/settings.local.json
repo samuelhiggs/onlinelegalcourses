@@ -9,7 +9,8 @@
       "Bash(cp /tmp/nextapp/tsconfig.json .)",
       "Bash(cp /tmp/nextapp/next.config.ts .)",
       "Bash(npm install:*)",
-      "Bash(npx shadcn@latest init --defaults --yes)"
+      "Bash(npx shadcn@latest init --defaults --yes)",
+      "Bash(npx shadcn@latest add button card input label select textarea badge separator sheet navigation-menu accordion --yes)"
     ]
   }
 }
